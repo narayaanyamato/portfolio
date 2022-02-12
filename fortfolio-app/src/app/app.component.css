@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+
+.navbar
+{
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navbar-nav>li>a {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-right: 20px;
+    color: #fff
+}
+
+.navbar-toggler {
+    padding: .20rem .50rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 2px solid white
+}
+
+ .navbar-nav .nav-item .nav-link {
+    color: #fff;
+ 
+
+}
+
+.navbar-nav .nav-item .nav-link:hover
+{
+    color: gold;
+   
+} 
+
+.navbar-brand {
+    color: #fff;
+    font-family: 'Allerta Stencil', sans-serif;
+    margin-bottom: 4px;
+    font-size: 27px
+}
+
+
+
+.navbar-brand:hover {
+    color: #fff
+}
+
+
+.all-show {
+    z-index: 10
+}
+
+
+.custom-toggler.navbar-toggler {
+            border-color: white;
+        }
+        /* Setting the stroke to green using rgb values (0, 128, 0) */
+          
+        .custom-toggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }

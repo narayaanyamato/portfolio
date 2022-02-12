@@ -1,0 +1,188 @@
+.bg-home
+{
+
+	background: url('https://www.easel.ly/blog/wp-content/uploads/2014/04/top-infographic-templates.png');
+	background-repeat: no-repeat;
+	background-position:center;
+	width: 100%;
+	height:600px;
+	background-size:cover;
+	overflow:hidden;
+}
+.bg-home  
+{
+	padding-top: 120px;
+
+}
+
+
+
+.bg-home h1
+{
+   color:hotpink;
+   font-size: 65px;
+   padding-bottom:10px ;
+   font-family: 'Allerta Stencil', sans-serif;
+   text-transform: capitalize;
+   letter-spacing: 3px;
+ 
+  
+}
+
+div 
+{
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.svg2{
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	width: 60%;
+	height: 400px;
+	z-index: -1;
+	animation: svgTwo 4s ease-in-out 0s infinite;
+	animation-direction: alternate;
+}
+@keyframes svgTwo{
+	from{
+		transform: translate(0);
+	}
+	to{
+		transform: translateY(60px);
+	}
+}
+
+@media only sreen and (max-width: 700px)
+{
+	.svg2{
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	width: 100%;
+	height: 220px;
+	z-index: -1;
+	animation: svgTwo 4s ease-in-out 0s infinite;
+	animation-direction: alternate;
+}
+
+
+
+.svg5{
+	position: absolute;
+	top: 0;
+	left: 70%;
+	width: 100%;
+	height: 250px;
+	z-index: -1;
+	animation: svgFive 6s ease-in-out 0s infinite;
+	animation-direction: alternate;
+}
+}
+
+
+.svg5{
+	position: absolute;
+	top: 0;
+	left: 70%;
+	width: 300px;
+	height: 250px;
+	z-index: -1;
+	animation: svgFive 6s ease-in-out 0s infinite;
+	animation-direction: alternate;
+}
+@keyframes svgFive{
+	from{
+		transform: translate(0) rotate(0);
+	}
+	to{
+		transform: translateY(-100px) rotate(90deg);
+	}
+}
+.footer
+{
+
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ color: whitesmoke;
+ font-family: monospace;
+}
+
+.icon .fa 
+{
+   
+   font-size: 25px;
+   padding: 7px;
+   margin: 5px;
+}
+
+@media only screen and(max-width: 740px)
+{
+	
+.icon .fa 
+{
+	 
+   font-size: 15px;
+   padding: 7px;
+   margin: 5px;
+
+}
+
+{
+   
+   font-size: 25px;
+   padding: 7px;
+   margin: 5px;
+}
+}
+
+.icon .fa:hover 
+{
+	opacity: 1;
+}
+
+
+
+.fa-facebook
+{
+	background:blue;
+	color: white;
+	border-radius: 7px;
+}
+
+.fa-instagram
+{
+	color: red;
+	background: lightgoldenrodyellow;
+	border-radius: 7px;
+}
+
+ .fa-google
+ {
+ 	 color:blue;
+ 	 background: white;
+ 	 	border-radius: 7px;
+ }
+
+ .fa-github
+ {
+ 	background: black;
+ 	color: white;
+ 	border-radius: 7px;
+ }
+
+ .fa-linkedin
+ {
+ 	color: white;
+ 	background: lightblue;
+ 	border-radius: 7px;
+ }
+
+ .fa-codepen
+ {
+ 	background: black;
+ 	color: white;
+ 	border-radius: 7px;
+ }

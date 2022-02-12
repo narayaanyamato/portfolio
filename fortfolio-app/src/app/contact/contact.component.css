@@ -1,0 +1,61 @@
+.bg-contact
+{
+    
+	background: url('https://lh6.googleusercontent.com/ky6am_5NyrrdbSnldByiLkFSAmI_ZNro_aBpgoM3DyYcQy6fSWgMGnUqChxq4jhXmBkNC5yuOa1TAPS95S6XCYQ=w16383');
+	background-repeat: no-repeat;
+	background-position:center;
+	width: 100%;
+	height:450px;
+	background-size:cover;
+	overflow:hidden;
+}
+.bg-contact  
+{
+	padding-top: 140px;
+
+}
+
+
+
+.bg-contact h1
+{
+   color:whitesmoke;
+   font-size: 65px;
+   padding-bottom:10px ;
+   font-family: 'Allerta Stencil', sans-serif;
+   text-transform: capitalize;
+   letter-spacing: 3px;
+ 
+  
+}
+
+.contact
+{
+	box-shadow: 5px 6px 5px 6px lightblue;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	border-top: 6px solid cyan;
+}
+
+ .contact p 
+ {
+ 	margin: 0px;
+ 	padding: 7px;
+ 	font-size: 16px;
+ 	color: blue;
+ 	font-weight: bold;
+ 	font-family: monospace;
+ }
+
+
+.footer
+{
+
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ color: whitesmoke;
+ font-family: monospace;
+}
+
+

@@ -1,0 +1,117 @@
+
+
+.bg-education
+{
+	background: url('https://www.learnupon.com/wp-content/uploads/@2x-Blog-Employee-Training-Programs-animation.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 400px;
+	background-size:cover;
+
+}
+
+
+@media only screen and (max-width: 700px)
+{
+	.bg-education
+{
+	background: url('https://www.learnupon.com/wp-content/uploads/@2x-Blog-Employee-Training-Programs-animation.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 350px;
+	background-size:cover;
+
+}
+
+}
+
+.education_title 
+{
+	padding-top: 140px;
+}
+
+.education_title h1
+{
+   color: pink;
+   font-size: 65px;
+   padding-bottom:10px ;
+   font-family: 'Allerta Stencil', sans-serif;
+   text-transform: capitalize;
+ 
+  
+}
+
+@media only screen and (max-width: 700px)
+{
+	.education_title h1
+{
+   color:pink;
+   font-size: 45px;
+   padding-bottom:10px ;
+   font-family: 'Allerta Stencil', sans-serif;
+   text-transform: capitalize;
+  
+  
+}
+}
+
+.edu_name
+{
+	background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+	padding:10px 0px 10px 0px ;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.edu_name p
+{
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: 300;
+
+}
+.edu_name h4
+{
+	text-transform: capitalize;
+	text-align: center;
+	font-weight:400;
+     font-family: 'Allerta Stencil', sans-serif;
+}
+
+.card
+{
+	outline: none;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.card-title
+{
+	text-transform: capitalize;
+	font-family:'Allerta Stencil' ;
+	text-align: center;
+}
+
+.card-text
+{
+text-transform:uppercase;
+	font-family:'monospace' ;
+	padding: 3px;
+	text-align: justify;	
+}
+
+.footer
+{
+
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ color: whitesmoke;
+ font-family: monospace;
+}

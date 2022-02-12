@@ -1,0 +1,231 @@
+.bg-about
+{
+
+	background: url('https://visme.co/blog/wp-content/uploads/2020/03/animation-software-header-wide.gif');
+	background-repeat: no-repeat;
+	background-position:center;
+	width: 100%;
+	height:450px;
+	background-size:cover;
+	overflow:hidden;
+}
+.bg-about  
+{
+	padding-top: 140px;
+
+}
+
+
+
+.bg-about h1
+{
+   color:whitesmoke;
+   font-size: 65px;
+   padding-bottom:10px ;
+   font-family: 'Allerta Stencil', sans-serif;
+   text-transform: capitalize;
+   letter-spacing: 3px;
+ 
+  
+}
+
+table 
+{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	margin-top:20px ;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+	border-radius: 10px;
+	padding: 7px;
+}
+
+tr 
+{
+	text-align:right;
+
+}
+
+td 
+{
+	font-family: monospace;
+	font-weight: bold;
+	text-align: center;
+	padding:5px ;
+	text-align: justify;
+	font-size: 18px;
+
+}
+
+
+.about
+{
+
+	padding: 25px;
+
+
+}
+
+  .about_img
+  {
+  	background: red;
+  	width: 300px;
+  	height: 200pxs;
+  	transform: rotate(15deg);
+  	rotation-point:90% 90%;
+  	margin-bottom: 20px;
+  	background-size: cover;
+  	background: url('https://thumbs.dreamstime.com/b/beautiful-autumn-background-flying-falling-colorful-leaves-bokeh-frame-beautiful-autumn-background-flying-falling-99139534.jpg');
+border: 6px solid lightcyan;
+  }
+
+.about img
+{
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin: auto;
+	margin: 10px;
+ 	transform: rotate(-15deg) translate(30px); 
+	border: 6px solid lightblue;
+	transform-origin: 50% 60%;
+}
+
+.about p 
+{
+	padding: 7px;
+	text-align: justify;
+	font-family: monospace;
+	font-size: 18px;
+	color: blue;
+  box-shadow: 5px 6px 6px 5px lightcyan;
+}
+
+.footer
+{
+
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ color: whitesmoke;
+ font-family: monospace;
+}
+
+.svg2{
+	position: absolute;
+	bottom: 0%;
+	left: 30%;
+	width: 300px;
+	height: 220px;
+	z-index: -1;
+
+	animation: svgTwo 4s ease-in-out 0s infinite;
+	animation-direction: alternate;
+}
+@keyframes svgTwo{
+	from{
+		transform: translate(0);
+	}
+	to{
+		transform: translatey(250px) scale(1.3);
+	}
+}
+
+.svg4{
+	position: absolute;
+	top: 70%;
+	left: -5%;
+	width: 300px;
+	height: 250px;
+	z-index: -1;
+	transform: rotatex(45deg);
+	animation: svgFour 8s ease-in-out 0s infinite;
+	animation-direction: alternate;
+}
+@keyframes svgFour{
+	from{
+		transform: translate(0);
+	}
+	to{
+		transform: translatex(410px) scale(1.2);
+	}
+}
+
+.svg5{
+	position: absolute;
+   position: relative;
+	bottom: 0%;
+	width: 230px;
+	height: 200px;
+	z-index: -1;
+	animation: svgFive 6s ease-in-out 0s infinite;
+	animation-direction: alternate;
+}
+@keyframes svgFive{
+	from{
+		transform: translate(0) rotate(0);
+		;
+	}
+	to{
+		transform: translatex(500px) rotate(170deg) scale(1.3);
+	}
+}
+
+
+@media only screen and (max-width: 700px)
+{
+	.svg5{
+		display: none;
+	position: absolute;
+   position: relative;
+   right: 10%;
+	bottom: 0%;
+	width: 200px;
+	height:300px;
+	z-index: -1;
+	animation: svgFive 6s ease-in-out 0s infinite;
+	animation-direction: alternate;
+}
+
+@keyframes svgFive{
+	from{
+		transform: translate(0) rotate(0);
+		;
+	}
+	to{
+		transform: translatey(-150%) rotate(170deg);
+	}
+}
+
+.svg4{
+	position: absolute;
+	top: 70%;
+	left: -5%;
+	width: 100px;
+	height: 250px;
+	z-index: -1;
+	animation: svgFour 8s ease-in-out 0s infinite;
+	animation-direction: alternate;
+}
+
+@keyframes svgFour{
+	from{
+		transform: translate(0);
+	}
+	to{
+		transform: translatex(100%);
+	}
+}
+
+.svg2{
+	position: absolute;
+	bottom: 0%;
+	left: 30%;
+	width: 00px;
+	height: 220px;
+	z-index: -1;
+	animation: svgTwo 4s ease-in-out 0s infinite;
+	animation-direction: alternate;
+}
+}
+
